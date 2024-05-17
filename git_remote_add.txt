@@ -1,0 +1,24 @@
+1. go to local folder path in cmd and type
+
+-- git init -b main
+
+it creates .git folder in your local repo
+
+2. add files and folders in staging area:
+
+git add .
+
+(or) git add "folder1" "folder2" "file1"
+
+git commit -m "first commit"
+
+3. git remote add origin github_repo_url_from_github
+
+4. git push -u origin main --force 
+
+# done (check in github repo)
+
+# To clear staging area: git rm -r --cached . (or) git rm -r --cached "folder1" "file1"
+# For large size set http and https buffers: git config https.postBuffer 524288000  and git config http.postBuffer 524288000
+
+ 
